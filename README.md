@@ -23,7 +23,7 @@ Here’s a breakdown of the concepts I've explored:
 
 1. **Clone** the repository:
    ```bash
-   git clone 
+   git clone https://github.com/Puneet2006-del/Java_Script_Basics/tree/main/JavaScript
    ```
 2. Navigate through topic-specific folders and run `.html` or `.js` files directly in your browser or using VS Code.
 3. Experiment with the code and add your own examples to reinforce learning.
