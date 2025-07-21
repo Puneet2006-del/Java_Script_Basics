@@ -1,0 +1,107 @@
+/* General resets and body styling */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #212121;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Navigation */
+nav {
+    width: 100%;
+    background-color: #333;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: #00bcd4;
+}
+
+/* Main wrapper styling */
+#wrapper {
+    max-width: 400px;
+    width: 100%;
+    background-color: #2c2c2c;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+    margin-top: 30px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+    margin: 8px 0;
+}
+
+/* Form styling */
+.form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 6px;
+    outline: none;
+    background-color: #424242;
+    color: #fff;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #00bcd4;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #0097a7;
+}
+
+/* Result display section */
+.resultParas {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.resultParas p {
+    margin: 6px 0;
+}
+
+.lowOrHi {
+    font-weight: bold;
+    font-size: 16px;
+}

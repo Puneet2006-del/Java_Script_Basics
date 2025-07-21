@@ -1,0 +1,57 @@
+.button {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 0%;
+    margin: 10px;
+    cursor: pointer;
+    border: 2px solid #555;
+}
+
+#grey {
+    background-color: grey;
+}
+
+#white {
+    background-color: white;
+    border: 2px solid #ccc;
+}
+
+#blue {
+    background-color: skyblue;
+}
+
+#yellow {
+    background-color: gold;
+}
+#red {
+    background-color: red;
+}
+#orange {
+    background-color: orange;
+}
+
+.h1 {
+    color: 2px solid black;
+}
+
+.capsule {
+    display: inline-block;
+    padding: 4px 12px;
+    font-size: 14px;
+    border: 1px solid #333;
+    border-radius: 999px;
+    cursor: pointer;
+    
+}
+
+.capsule2 {
+    display: inline-block;
+    padding: 4px 12px;
+    font-size: 14px;
+    border: 1px solid #333;
+    border-radius: 999px;
+    background-color: #f9f9f9;
+    color: #333;
+    cursor: pointer;
+}

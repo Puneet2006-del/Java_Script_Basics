@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Interval and set timeout</title>
+</head>
+
+<body>
+    <h1>Synchronization and Asynchronization</h1>
+    <br>
+    <button id="stop">Stop</button>
+</body>
+<script>
+    const sayMyName = ()=>{                    // Asynchronization
+        console.log("Puneet")
+    }
+
+    const changeText = (()=>{
+        document.querySelector('h1').innerHTML = 'Changing text after 2 Seconds'
+    })
+
+    const stopsetTimeout = setTimeout(changeText, 2000) // Pass reference
+    document.querySelector('#stop').addEventListener('click',()=>{
+        clearTimeout(stopsetTimeout)
+        console.log("STOPPED")
+    })
+</script>
+
+</html>
